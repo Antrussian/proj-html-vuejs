@@ -4,6 +4,7 @@
     <Slogan />
     <Cta />
     <ValueProposition/>
+    <RealResults :reviews="reviews" />
     
   </div>
 </template>
@@ -13,6 +14,7 @@ import Header from './components/Header.vue';
 import Slogan from './components/Slogan.vue';
 import Cta from './components/Cta.vue';
 import ValueProposition from './components/ValueProposition.vue';
+import RealResults from './components/RealResults.vue';
 
 export default {
   components: {
@@ -20,6 +22,7 @@ export default {
     Slogan,
     Cta,
     ValueProposition,
+    RealResults,
   },
   data() {
     return {
@@ -31,9 +34,39 @@ export default {
         { id: 5, label: 'TESTIMONIALS' },
         { id: 6, label: 'BLOG' },
       ],
+
+      reviews: [
+      {
+        id: 1,
+        photo: 'blog6-600x600.jpg',
+        text: 'A wonderful experience at the gym. I achieved great results!',
+        author: 'John Doe',
+      },
+        {
+          id: 2,
+          photo: 'blog6-600x600.jpg',
+          text: 'The trainers are amazing, and the atmosphere is fantastic.',
+          author: 'Jane Smith',
+        },
+
+        {
+          id: 3,
+          photo: 'blog6-600x600.jpg',
+          text: 'The trainers are amazing, and the atmosphere is fantastic.',
+          author: 'Jane Smith',
+        },
+        {
+          id: 4,
+          photo: 'path_to_photo2.jpg',
+          text: 'The trainers are amazing, and the atmosphere is fantastic.',
+          author: 'Jane Smith',
+        },
+
+      ],
     };
   },
 };
+   
 </script>
 
 <style>
