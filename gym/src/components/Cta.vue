@@ -7,7 +7,7 @@
 
 
       <div class="cta-input">
-      <p class="sub-title-slogan">Sign Up For A Free Training Session!</p>
+      <p class="sub-title-cta">Sign Up For A Free Training Session!</p>
    
     <label for="name">Name </label>
     <input v-model="name" type="text" id="name" required />
@@ -106,10 +106,10 @@ input {
 input::placeholder {
   color: rgba(255, 255, 255, 0.8); /* Colore del testo del placeholder */
 }
-.sub-title-slogan {
-  font-size: 12px;
+.sub-title-cta {
+  font-size: 20px;
   margin-bottom: 30px;
-  color: rgba(255, 255, 255, 0.552);
+  color: rgb(255, 255, 255);
   width: 100%;
 }
 

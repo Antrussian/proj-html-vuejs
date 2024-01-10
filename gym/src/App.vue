@@ -3,6 +3,7 @@
     <Header :menuItems="menuItems" />
     <Slogan />
     <Cta />
+    <ValueProposition/>
     
   </div>
 </template>
@@ -11,13 +12,14 @@
 import Header from './components/Header.vue';
 import Slogan from './components/Slogan.vue';
 import Cta from './components/Cta.vue';
-
+import ValueProposition from './components/ValueProposition.vue';
 
 export default {
   components: {
     Header,
     Slogan,
     Cta,
+    ValueProposition,
   },
   data() {
     return {
