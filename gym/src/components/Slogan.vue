@@ -32,7 +32,7 @@
   display: flex;
   flex-direction: column;
 width: 100%;
-  padding: 20px;
+
   background-color: #333; 
   color: white;
   
