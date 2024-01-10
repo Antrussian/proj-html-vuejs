@@ -1,19 +1,20 @@
 <template>
   <div id="app">
     <Header :menuItems="menuItems" />
- 
-    <!-- Aggiungi altri componenti se necessario -->
+    <Slogan />
+    
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue';
+import Slogan from './components/Slogan.vue';
 
 
 export default {
   components: {
     Header,
-
+    Slogan,
   },
   data() {
     return {
@@ -31,5 +32,5 @@ export default {
 </script>
 
 <style>
-/* Aggiungi stili globali qui se necessario */
+
 </style>
